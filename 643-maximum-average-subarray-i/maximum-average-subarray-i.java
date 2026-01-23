@@ -1,7 +1,7 @@
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         int wind=0;
-    int maxi=0;
+    int maxi=1;
         for(int i=0;i<k;i++)
         {
             wind=nums[i]+wind;
