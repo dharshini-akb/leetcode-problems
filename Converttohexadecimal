@@ -1,0 +1,9 @@
+class Converttohexadecimal {
+    public String toHex(int num) {
+        return Integer.toHexString(num);
+    }
+}
+//why we here use this method instead of Integer.toString(num,radix);because this does not handles negative values
+//if you had doubt check leetcode problem 405//
+//for this purpose only we are using this logic Integer.toHexString(num);//
+    
